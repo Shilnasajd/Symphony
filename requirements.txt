@@ -1,1 +1,7 @@
+django
+djangorestframework
+mysqlclient
+selenium
+webdriver-manager
+beautifulsoup4
 
