@@ -56,7 +56,10 @@ python manage.py runserver
 https://drive.google.com/file/d/17jTEB385mZeRMAeAIRBk3FcaHhCCoXrE/view?usp=sharing
 ```
 ## MySQL Database setup
-
+- Access MySQL Command Line
+```
+mysql -u your_username -p
+```
 - Create a Database
 ```
 CREATE DATABASE demo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
