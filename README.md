@@ -4,7 +4,10 @@ This Django application includes functionality to save entities from a given URL
 
 
 ## Setup
-
+- Clone the repository
+```
+git clone https://github.com/Shilnasajd/Symphony.git
+```
 - Create virtual environment
 
 #### Ubuntu
