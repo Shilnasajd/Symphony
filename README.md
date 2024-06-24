@@ -55,3 +55,23 @@ python manage.py runserver
 ```
 https://drive.google.com/file/d/17jTEB385mZeRMAeAIRBk3FcaHhCCoXrE/view?usp=sharing
 ```
+## MySQL Database setup
+
+- Create a Database
+```
+CREATE DATABASE demo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+- Create a MySQL User
+```
+CREATE USER 'demo'@'localhost' IDENTIFIED BY 'Demo@123';
+```
+
+- Grant Privileges to the User
+```
+GRANT ALL PRIVILEGES ON demo.* TO 'demo'@'localhost';
+```
+- Flush Privileges and Exit MySQL
+```
+FLUSH PRIVILEGES;
+EXIT;
+```
